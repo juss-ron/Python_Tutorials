@@ -1,0 +1,52 @@
+🐍 Where Do Types Come From in Python?
+ 
+    Python, like every other programming language, has a core set of fundamental types that serve as the basic building blocks for all programs. 
+    These are often referred to as the Built-in Types and are part of the Python Standard Library.
+
+    They provide the essential capabilities required to perform core programming tasks.
+
+    You have spent a lot of time with str (String) and int (Integer) types, but there are also many more.
+
+Python's Core Built-in Types
+
+    Here are some of the other types from the Python standard library that you will encounter:
+    list, dict, set, tuple, float, bool
+
+
+🔡 Python Naming Conventions (Type vs. Variable)
+    In Python, the naming conventions for types and variables are also intentionally different to make the code easier to read, though the exact rules differ from Swift.
+
+    Element: Built-in Types			
+
+        Python Convention: Lowercase
+
+        Example: int, str, list, bool
+
+        Explanation: Built-in types are generally all lowercase.
+
+
+    Element: Classes (Custom Types)
+
+        Python Convention: Upper Camel Case (PascalCase)
+
+        Example: class MyClass:
+	
+        Explanation: Custom-defined types (classes) start with a capital letter and follow Upper Camel Case.
+
+
+    Element: Variables/Functions
+
+        Python Convention: Lowercase with Underscores (snake_case)
+
+        Example: my_variable, calculate_sum()
+        
+        Explanation: Standard variables and functions use lowercase letters and separate words with underscores.
+
+
+    The difference is intentional:
+
+        Custom Types (Classes) start with a capital letter (e.g., Car, Employee).
+        Variables, Functions, and Built-in Types all start with a lowercase letter (e.g., age, get_name, int).
+
+
+    This convention makes it easy to visually distinguish a custom type (something you can create an instance of) from a regular variable, function, or one of Python's fundamental built-in types.
