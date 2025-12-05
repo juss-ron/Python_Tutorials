@@ -1,13 +1,14 @@
 # 🐍 Getting Values Back (Returning Values) in Python
-#
-# In Python, just like in Swift, functions can process input and then send a result back to the code that called them. 
-# 
-#
-# To declare a Python function that returns a value, you need two main components:
-#
-# Type Hint (Optional): You can add a return type hint using the arrow syntax (->) after the parameter list to indicate the type of value the function is expected to return (e.g., -> str).
-#
-# return statement: The function body must include a return statement that specifies the value to be handed back.
+
+    # In Python, just like in Swift, functions can process input and then send a result back to the code that called them. 
+
+    # To declare a Python function that returns a value, you need two main components:
+
+        # Type Hint (Optional): 
+            # You can add a return type hint using the arrow syntax (->) after the parameter list to indicate the type of value the function is expected to return (e.g., -> str).
+
+        # return statement: 
+            # The function body must include a return statement that specifies the value to be handed back.
 #
 
 def space_available_message(each_video_duration: int, numberOfVideos: int) -> str:
@@ -26,13 +27,12 @@ def space_available_message(each_video_duration: int, numberOfVideos: int) -> st
 print(space_available_message(each_video_duration=10, numberOfVideos=50))
 # Output: If your 50 videos are 10 seconds each, you'll have 8500 MBs remaining
 
-#
 # 💡 Using the Returned Value
-# The value that a function returns is just like any other value (a string, an integer, etc.). It can be:
-#
-# 1. Assigned to a variable: The most common use.
-# 2. Used as an argument for another function call.
-# 3. Used in an expression for further calculation or manipulation
+    # The value that a function returns is just like any other value (a string, an integer, etc.). It can be:
+
+        # 1. Assigned to a variable: The most common use.
+        # 2. Used as an argument for another function call.
+        # 3. Used in an expression for further calculation or manipulation
 #
 
 # Variables can be used as the arguments passed into the function

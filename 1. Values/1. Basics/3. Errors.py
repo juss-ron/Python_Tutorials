@@ -22,44 +22,23 @@ primt("Hello, World")
 
 
 
-
-# Another example of an errror is "Division by 0"
-# You can’t divide by zero in math class, and a computer can’t divide by zero either.
-
-1000 / 0
-
-# Change the 0 to another number to fix the error.
-
-
-
-
-
-
-
-
-print("Hello, World")
-
-
 # Error Type 2: Runtime Errors (e.g., Division by Zero)
 
-# Another example of a fundamental runtime error is "Division by 0".
-# You can’t divide by zero in math class, and a computer can’t divide by zero either.
-# Python throws a specific error for this problem: ZeroDivisionError.
+    # Another example of a fundamental runtime error is "Division by 0".
+    # You can’t divide by zero in math class, and a computer can’t divide by zero either.
+    # Python throws a specific error for this problem: ZeroDivisionError.
 
-# print(1000 / 0)
+print(1000 / 0)
 
 # Fix the error:
-# Change the 0 to another number to fix the error.
-
-print(1000 / 5)
-# Expected result: 200.0
+    # Change the 0 to another number to fix the error.
 
 
 # Exercise
 
-# Practice identifying and fixing errors by uncommenting the lines below one at a time.
-# Read the error message in the console carefully to understand the problem, 
-# then fix the line before moving on to the next.
+    # Practice identifying and fixing errors by uncommenting the lines below one at a time.
+    # Read the error message in the console carefully to understand the problem, 
+    # then fix the line before moving on to the next.
 
 # 1. Syntax Error: Missing necessary punctuation
 # print("This line is missing its closing parenthesis" 

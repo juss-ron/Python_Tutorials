@@ -1,24 +1,24 @@
 # 👕 Matching Names and Types in Python
-# The analogy about your favorite shirt and a banana illustrates a core concept in programming: Type Consistency.
-#
-# If you take a moment to imagine your favorite shirt, it's probably not a banana. That doesn't make sense. 
-# A banana is not a shirt.
-#
-# On the other hand, if you think about your favorite fruit, whether it's a banana, an apple, or something else, it's almost certainly some kind of fruit.
-#
-# When people name something—"favorite fruit," for example—the name is usually connected to a particular type of thing.
-#
-# The idea of "favorite fruit" only makes sense if it's connected to a kind of fruit. It just wouldn't make sense to connect it with a "monkey wrench" or "astronomy." 
-# Your brain does a good job of making sure names are matched up with the correct type of thing.
-#
-# In a similar way, Python keeps track of the type of value associated with variables. 
-# While Python is dynamically typed and lets you change a variable's type, it still uses the type of the value to determine what operations are valid.
+    # The analogy about your favorite shirt and a banana illustrates a core concept in programming: Type Consistency.
+
+    # If you take a moment to imagine your favorite shirt, it's probably not a banana. That doesn't make sense. 
+    # A banana is not a shirt.
+
+    # On the other hand, if you think about your favorite fruit, whether it's a banana, an apple, or something else, it's almost certainly some kind of fruit.
+
+    # When people name something—"favorite fruit," for example—the name is usually connected to a particular type of thing.
+
+    # The idea of "favorite fruit" only makes sense if it's connected to a kind of fruit. It just wouldn't make sense to connect it with a "monkey wrench" or "astronomy." 
+    # Your brain does a good job of making sure names are matched up with the correct type of thing.
+
+    # In a similar way, Python keeps track of the type of value associated with variables. 
+    # While Python is dynamically typed and lets you change a variable's type, it still uses the type of the value to determine what operations are valid.
 #
 
 # How Python Handles Type Consistency
-#
-# 1. Valid Operations: 
-# Python ensures you don't perform nonsensical operations, like trying to multiply a text string by an integer, which is usually not allowed:
+
+    # 1. Valid Operations: 
+    # Python ensures you don't perform nonsensical operations, like trying to multiply a text string by an integer, which is usually not allowed:
 #
 
 # Valid operation: Multiplying an integer by an integer
@@ -34,7 +34,7 @@ text = "hello"
 
 
 # 2. Naming Convention: 
-# In Python, it's a best practice to keep variable names aligned with the type of data they hold (even if Python doesn't enforce it):
+    # In Python, it's a best practice to keep variable names aligned with the type of data they hold (even if Python doesn't enforce it):
 # 
 
 # Good practice: The name matches the string type

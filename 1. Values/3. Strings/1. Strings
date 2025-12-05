@@ -1,0 +1,15 @@
+Strings
+
+    Look at just about any app and you'll see text — on messaging apps, news readers, social media, maps — you name it. 
+    Even camera apps might use text to label buttons and controls.
+
+    In most programming languages, including Python, text values are called strings/str.
+
+    Why "Strings"?
+
+        Imagine a string of beads. Each bead may look completely unique, but they’re all strung together in a particular order.
+
+    A single letter (for example, an “H”) isn't usually meaningful by itself. 
+    But a string of letters can create a word, so programmers call text a string. And a string can be just about any text imaginable.
+
+Next, learn what else besides letters can make up a string.

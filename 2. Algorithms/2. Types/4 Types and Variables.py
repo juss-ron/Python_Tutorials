@@ -1,12 +1,10 @@
 # 🐍 Types and Variables in Python
-# The concept of variables having a fixed type is characteristic of statically-typed languages like Swift. 
-# Python, however, is a dynamically-typed language, so its behavior is different.
-#
-# Here is how the original Swift code and its behavior translate into Python:
-#
+    # The concept of variables having a fixed type is characteristic of statically-typed languages like Swift. 
+    # Python, however, is a dynamically-typed language, so its behavior is different.
+
 # Python's Dynamic Typing
-# In Python, the variable's type is not fixed to the first assigned value. 
-# A variable simply refers to a value, and it can be reassigned to a value of a completely different type at any time.
+    # In Python, the variable's type is not fixed to the first assigned value. 
+    # A variable simply refers to a value, and it can be reassigned to a value of a completely different type at any time.
 #
 
 # 1. Initial Assignment

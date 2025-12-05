@@ -1,10 +1,10 @@
 # A Single Piece of Work
-#
-# You can combine code that you may want to use more than once in a function. 
-# Similar to the way you declared the names of constants using let, you can declare a function using func.
-#
-# Because functions can contain multiple lines of code, the declaration is a little more complicated. 
-# Here's a very simple function:
+
+    # You can combine code that you may want to use more than once in a function. 
+    # Similar to the way you declared the names of constants using let, you can declare a function using func.
+
+    # Because functions can contain multiple lines of code, the declaration is a little more complicated. 
+    # Here's a very simple function:
 #
 
 def row_the_boat():
@@ -12,30 +12,30 @@ def row_the_boat():
     print("Gently down the stream")
 
 #
-# The name of the function is rowTheBoat(). 
-# You'll learn more about the () later on, but for now remember that any identifier followed by parentheses is a function.
-#
-# The indented code below the two function: is called the body of the function.
-# Code that is under the function name and is indented is considered as part 
-#
-# These lines of code are different from others you’ve seen in playgrounds. 
-# Nothing is displayed in the results sidebar or the console. 
-# That’s because declaring a function only describes what the function would do if it ever ran.
-#
-# To actually run the code, you have to call the function. 
-# Typing the name of the function will call the function. Uncomment the line below:
+    # The name of the function is rowTheBoat(). 
+    # You'll learn more about the () later on, but for now remember that any identifier followed by parentheses is a function.
+
+    # The indented code below the two function: is called the body of the function.
+    # Code that is under the function name and is indented is considered as part 
+
+    # These lines of code are different from others you’ve seen in playgrounds. 
+    # Nothing is displayed in the results sidebar or the console. 
+    # That’s because declaring a function only describes what the function would do if it ever ran.
+
+    # To actually run the code, you have to call the function. 
+    # Typing the name of the function will call the function. Uncomment the line below:
 #
 
 row_the_boat()
 
 #
-# When you've called a function in a playground, you'll see results appear in the sidebar. 
-# Calling the rowTheBoat function will also print text in the console area below.
-#
+    # When you've called a function in a playground, you'll see results appear in the sidebar. 
+    # Calling the rowTheBoat function will also print text in the console area below.
+
 # Exercise
-# Write your own function that prints something to the console, then call your new function. 
-# Pay attention to the example above so that you know where all the parentheses () and braces {} should go. 
-# What happens if you call your function more than once?
+    # Write your own function that prints something to the console, then call your new function. 
+    # Pay attention to the example above so that you know where all the parentheses () and braces {} should go. 
+    # What happens if you call your function more than once?
 #
 
 

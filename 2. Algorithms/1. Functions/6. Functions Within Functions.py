@@ -1,11 +1,11 @@
 # Functions Within Functions
-#
-# When you declare a function, you’re grouping lines of code and giving a name to the group.
-#
-# You can then call that function in a single line, which can become just another line in another group. 
-# In other words, you can write a function that calls other functions.
-#
-# Here's another way to write the first verse of the nursery rhyme:
+
+    # When you declare a function, you’re grouping lines of code and giving a name to the group.
+
+    # You can then call that function in a single line, which can become just another line in another group. 
+    # In other words, you can write a function that calls other functions.
+
+    # Here's another way to write the first verse of the nursery rhyme:
 #
 
 def row_the_boat():
@@ -22,9 +22,8 @@ def verse_one():
 
 verse_one()
 
-# 
 # Exercise
-# Write a function for an alternate second verse of the song using the laughing submarine function below.
+    # Write a function for an alternate second verse of the song using the laughing submarine function below.
 # 
 
 def laughingSubmarine():
@@ -35,5 +34,4 @@ def laughingSubmarine():
 
 
 
-#
 # On the next page, learn how things can go wrong when using functions of functions.
