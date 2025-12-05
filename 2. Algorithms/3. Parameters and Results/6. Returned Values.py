@@ -48,15 +48,20 @@ named_video_message = f"Hey Micah! {video_message}"
 print(named_video_message)
 
 # Output:
-# Video Message: If your 100 videos are 40 seconds each, you'll have -2000 MBs remaining
-# Hey Micah! If your 100 videos are 40 seconds each, you'll have -2000 MBs remaining
+    # Video Message: If your 100 videos are 40 seconds each, you'll have -2000 MBs remaining
+    # Hey Micah! If your 100 videos are 40 seconds each, you'll have -2000 MBs remaining
 
 # Functions as Expressions
-# A function call that returns a value (like space_available_message(...)) is an expression because it is evaluated and produces a value. 
-# Anywhere you can use a value, you can use a function call.
-#
+    # A function call that returns a value (like space_available_message(...)) is an expression because it is evaluated and produces a value. 
+    # Anywhere you can use a value, you can use a function call.
+
 # Note: 
-# A Python function can have multiple parameters, and although the standard practice is to return a single value, 
-# it can easily return multiple values by packaging them into a single tuple (which is still considered one value/object).
-#
-# Would you like to try an exercise where you create a function that returns a value?
+    # A Python function can have multiple parameters, and although the standard practice is to return a single value, 
+    # it can easily return multiple values by packaging them into a single tuple (which is still considered one value/object).
+
+# Exercise
+    # Create a function that returns a value?
+
+# Enter your code below
+
+
