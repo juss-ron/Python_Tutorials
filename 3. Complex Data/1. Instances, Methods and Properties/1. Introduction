@@ -1,0 +1,31 @@
+For Instance
+
+    You've learned about types in Python and how they're similar to types of things in the real world. 
+    In Python, a type serves as the blueprint or definition for creating objects, which are the individual instances.
+
+    For every type in the real world, there are many actual physical instances (objects):
+
+        For the type Car, there are countless individual variations on the road, each with its own: 
+            mileage history, make, model, color, fuel level, scratches, and dents. 
+
+        These are the object's properties (or attributes). Each car also has a particular set of behaviors (or methods): 
+            its own ways for starting, braking, shifting, and the like.
+
+        For the type City, each instance of a city has a different name, population, location, and landmarks. 
+        These are its attributes. 
+        And a city has certain methods for getting things done like responding to emergencies or collecting garbage.
+
+    The type defines or describes the properties (attributes) and behaviors (methods) of a particular kind of thing. 
+    But each concrete example of the type — each car, each city — is a separate, independent instance (object) of that type.
+
+    Imagine two cars of the same make and model, built in the same year. 
+    One is speeding down the highway on a trip; the other is out of gas by the side of the road. 
+    Same type (Car), but two different instances (objects).
+
+    Or think of two cities. The location of each city will be different. 
+    A landmark in one city might draw lots of tourists, but a landmark in another might be in disrepair and get few visitors. 
+    Both are instances of the City type, but each individual city object can be very different from the next.
+
+    In programming, specifically in Python, you can create and use different instances (objects) of a given type. Each instance has its own set of property values (attribute values), and each instance can perform behavior (methods) independent of other instances.
+
+Next, see some instances in code.

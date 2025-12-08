@@ -1,0 +1,35 @@
+Lists in Python
+    People use lists all the time. You might have a to-do list, a wish list, a music playlist, or even a bucket list. 
+    Lists are incredibly useful, and they are one of the most common tools in coding too.
+
+    When you first learned about strings, you might have tried to make a "list" by joining multiple words together with the \n newline character:
+
+    Example:
+        shopping_list = "Eggs" + "\n" + "Tomatoes" + "\n" + "Milk"
+
+    This code gives you a single string that displays nicely on the screen when printed, but there’s not much else you can do with it. 
+    Think of other things you might want to do with a real list:
+
+        How could you perform an action on each member of the list without needing to retype them all?
+
+        How could you double-check whether you've already added something to the list?
+
+        If your list has grown to hundreds of items, could you easily remove the one that says “Tomatoes”?
+
+        What if your list isn't made of strings, but something else—like a list of prices that you'd like to add up?
+
+        What's the first thing? The last thing? The 24th thing?
+
+        How many things are there in total?
+
+        How can you rearrange or sort the list?
+
+    In Python, this is solved by a type simply called a list.
+
+    A list is an important data abstraction—a way to think about a collection of items as a single unit without having to worry about how they are stored individually. 
+    Lists, like all data abstractions, help you simplify your code by providing built-in methods to solve all the dilemmas above.
+
+    Think of any app or website you’ve ever used where you’ve scrolled through a feed or a set of search results. 
+    That program is almost certainly using a list.
+
+    In this lesson, you’ll learn about creating and working with Python lists.

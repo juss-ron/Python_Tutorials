@@ -1,0 +1,34 @@
+Why Methods and Attributes?
+    In this lesson, you’ve learned some subtle but powerful concepts that help you write cleaner code.
+
+    With methods and attributes, each instance of a particular type contains its own set of values (attributes) and its own set of behaviors (methods) that you can use.
+
+    These concepts help break down the complexity of a large program by bundling related information and functionality together in a single, self-contained package called an object (an instance).
+
+    Functions vs. Methods
+        Taking the str type as an example, imagine if you had to write a function outside of the type that checks if a string starts with a certain prefix:
+
+            def check_if_starts_with(full_string, prefix_string):
+                # logic here...
+                pass
+
+    This kind of function is called a top-level function because it exists on its own and isn't attached to a specific type. So far, most of the functions you’ve written have been top-level functions.
+
+    However, there are significant advantages to using methods and attributes over top-level functions:
+
+        Readability: Putting the capabilities of a type together with the type itself makes the code easier to follow. 
+        my_string.startswith("A") reads almost like a sentence.
+
+        Autocompletion: When you type a dot (.) after a variable, modern code editors only show you the methods that work for that specific type. 
+        If every function were a top-level function, typing a single letter would show you every possible function in your entire program!
+
+        Organization: 
+            Documentation is much easier to navigate. Instead of searching a massive list of global functions, you can look up the "String" category to see everything a string can do.
+
+    Hiding Complexity
+        Earlier, you learned that a function can hide a lot of complex logic while still being easy to use. 
+        Instances are just an expansion of that same idea.
+
+        You know that every string instance can tell you if it starts with a certain letter or if it is all uppercase. 
+        The logic behind how Python actually scans those characters is hidden from you. 
+        You don't need to know the details of how the str type works under the hood; you just call the methods and attributes to get the job done.

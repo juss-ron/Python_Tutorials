@@ -1,0 +1,19 @@
+🧩 The "Discovery" Challenge
+    For each scenario, identify which built-in function (type(), dir(), or help()) would be the most effective tool for the job.
+
+    Scenario 1: 
+        The Identity Crisis You have a variable named result that came from a complex calculation. 
+        You aren't sure if it's a whole number (int) or a decimal (float).
+
+        Which tool do you use?
+
+    Scenario 2: 
+        Searching for Behaviors You have a string named email_address. 
+        You want to find out if there is a built-in way to turn the whole string into lowercase letters, but you don't know the name of the method.
+
+        Which tool do you use?
+
+    Scenario 3: 
+        Reading the Manual You found a method called .replace() on a string, but you aren't sure what order to put the arguments in (does the "old" text go first, or the "new" text?).
+
+        Which tool do you use?

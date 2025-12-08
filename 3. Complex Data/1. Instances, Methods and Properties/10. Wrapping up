@@ -1,0 +1,26 @@
+Wrapping Up
+    In this lesson, you’ve learned that each value of a particular type is called an instance (or an object).
+
+    You’ve also learned that types aren't just labels like str or int, but that each type provides additional capabilities to its objects.
+
+        Types have attributes (properties), which allow each instance to hold its own set of values.
+
+        Types have instance methods, which are functions defined as part of the type that perform actions on that instance.
+
+    Discovering Capabilities
+        In Python, you can find out about the methods and attributes available without needing a heavy external browser. 
+        You can access documentation directly from your code:
+
+            Using dir(): Lists all the methods and attributes an object has.
+
+            Using help(): Provides the "instruction manual" for a specific type or method.
+
+            Editor Features: Most Python editors (like VS Code or PyCharm) will show you a "docstring" (a quick description) when you hover over a method or type your dot (.).
+
+    You’ve seen that even a seemingly simple type like str has a large number of built-in methods ready for you to use.
+
+    Why It Matters
+        You’ve learned why it makes sense to provide functionality as instance methods and attributes rather than top-level functions. 
+        It organizes your code, makes documentation easier to find, and allows your tools to provide better autocompletion.
+    
+    By bundling data and behavior into an object, Python hides the complex "how-to" and lets you focus on what you want to achieve.
